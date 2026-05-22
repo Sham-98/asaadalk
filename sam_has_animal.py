@@ -23,7 +23,7 @@ processor = Sam3Processor(model)
 full_image_paths = glob.glob("/projappl/project_2001382/asaadalk/Correct_SAM_Classification_Images/*.jpg")
 #image_paths = full_image_paths[:100]
 
-thresholds = 0.9
+
 output_csv = "sam_has_animal.csv"
 
 # Write results incrementally to CSV instead of accumulating in memory
