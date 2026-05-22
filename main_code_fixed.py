@@ -23,7 +23,6 @@ processor = Sam3Processor(model)
 full_image_paths = glob.glob("/scratch/project_2001382/data/shared/zebra/images/*.jpg")
 #image_paths = full_image_paths[:1000]
 
-thresholds = 0.9
 output_csv = "SAM_results.csv"
 
 # Write results incrementally to CSV instead of accumulating in memory
