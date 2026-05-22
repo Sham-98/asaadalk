@@ -23,7 +23,6 @@ processor = Sam3Processor(model)
 full_image_paths = glob.glob("/projappl/project_2001382/asaadalk/sam_species/*.jpg")
 #image_paths = full_image_paths[:100]
 
-thresholds = 0.9
 output_csv = "SAM_plains_results.csv"
 
 #The categories of interest are: "zebra_grevys", "giraffe_reticulated", "zebra_plains", "elephant_savanna", and "lion"
