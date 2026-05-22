@@ -33,7 +33,7 @@ image_paths = full_image_paths[:1600]
 
 #Ground_truth_annotations = glob.glob("/scratch/project_2001382/data/shared/zebra/annotations/GZCD_gt.json")
 
-thresholds = 0.9
+
 SAM_results = []
 for image_path in image_paths:
     try:
